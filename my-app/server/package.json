@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-start": "yarn build && yarn start",
+    "start": "node ./dist/index.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "apollo-server": "^2.24.1",
+    "axios": "^0.21.1",
+    "typescript": "^4.2.4"
+  }
+}
